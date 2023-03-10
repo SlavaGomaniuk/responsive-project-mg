@@ -1,0 +1,239 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+:root {
+  --first-color: #6c63ff;
+  --second-color: #f9f7fe;
+  --fontfamily-header: "Playfair Display", serif;
+  --fontfamily-p: "Poppins", sans-serif;
+}
+.logo {
+  max-height: 42px;
+}
+nav {
+  padding: 25px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 45px;
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 16px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 0.7;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+.active {
+  color: var(--first-color);
+  font-weight: 500;
+  opacity: 1;
+}
+.hero {
+  background-color: var(--second-color);
+  text-align: center;
+  padding: 80px 15px;
+  margin: 0;
+}
+.content {
+  padding: 60px 15px;
+}
+.about-content {
+  margin: 20px;
+}
+.about-text {
+  padding-right: 20px;
+}
+h1 {
+  font-family: var(--fontfamily-header);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 128px;
+}
+h2 {
+  font-family: var(--fontfamily-header);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+}
+h3 {
+  font-family: var(--fontfamily-p);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+}
+.hero h2 {
+  font-family: var(--fontfamily-p);
+  font-weight: 700;
+  font-size: 36px;
+  color: #272142;
+  line-height: 54px;
+}
+.hero p {
+  font-family: var(--fontfamily-p);
+  font-size: 24px;
+  font-weight: 400;
+  color: #272142;
+  line-height: 36px;
+}
+
+.about-content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-content h2 {
+  font-family: var(--fontfamily-p);
+  font-weight: 700;
+  font-size: 18px;
+  color: #272142;
+  line-height: 27px;
+}
+.about-content p {
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.text-content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.7;
+}
+.btn-start {
+  font-family: var(--fontfamily-p);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  border-radius: 4px;
+  padding: 18px 46px;
+  background: var(--first-color);
+  color: white;
+}
+.btn-start:hover {
+  background: var(--first-color);
+  color: #272142;
+}
+.btn-learn {
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
+}
+.description {
+  padding: 120px 60px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+footer {
+  margin: 60px 0;
+}
+footer p {
+  font-size: 16px;
+}
+footer .contact-box {
+  background-color: var(--second-color);
+  padding: 42px 119px;
+  border-radius: 20px;
+}
+footer h4 {
+  font-family: var(--fontfamily-header);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.email-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: var(--fontfamily-p);
+}
+.social-link a {
+  color: var(--first-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 10px 15px;
+  margin: 0 33px;
+  background-color: var(--second-color);
+  transition: all 100ms ease-in-out;
+}
+footer .social-link a:hover {
+  color: var(--second-color);
+  background-color: var(--first-color);
+}
+footer .contact-box p {
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 27px;
+  opacity: 0.7;
+}
+@media (max-width: 970px) {
+  h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  h1 {
+    font-size: 66px;
+    line-height: 70px;
+  }
+  footer h4 {
+    font-size: 34px;
+  }
+  footer .btn-start {
+    padding: 10px 26px;
+  }
+
+  footer .contact-box {
+    padding: 42px 42px;
+  }
+  .hero,
+  .content {
+    padding: 30px 15px 15px;
+  }
+  .description {
+    padding: 10px;
+    text-align: center;
+  }
+  .about-content {
+    text-align: center;
+    margin: 0;
+  }
+  .content h2 {
+    text-align: center;
+  }
+  nav {
+    padding: 5px;
+  }
+  footer p {
+    margin: auto;
+  }
+}
+.btn-learn:hover {
+  color: #272142b2;
+  border: 1px solid var(--first-color);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
+}
