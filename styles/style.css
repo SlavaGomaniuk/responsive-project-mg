@@ -32,7 +32,7 @@ nav ul a {
 }
 nav a:hover,
 .active {
-  color: var(--first-color);
+  color: var(--first-color) !important;
   font-weight: 500;
   opacity: 1;
 }
