@@ -189,6 +189,9 @@ footer .contact-box p {
   line-height: 27px;
   opacity: 0.7;
 }
+.navbar-st {
+  background-color: var(--second-color) !important;
+}
 @media (max-width: 970px) {
   h2 {
     font-size: 45px;
