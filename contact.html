@@ -55,11 +55,34 @@
     </nav>
     <div class="content container">
       <h2 class="mb-4 mt-5">Let's get in touch!</h2>
-      <h3>Email</h3>
+      <div class="row">
+        <div class="col-md-8"><!-- modify this form HTML and place wherever you want your form -->
+          <form
+            action="https://formspree.io/f/mrgvleya"
+            method="POST"
+            class="border rounded p-3 mt-3"
+          >
+          <div class="mb-3">
+            <label>
+              Your email:</label>
+              <input type="email" name="email" class="form-control"autofocus required>
+          </div>
+          <div class="mb-3">
+            <label>
+              Your message:</label>
+              <textarea name="message" class="form-control"></textarea>
+            </div>
+            <!-- your other form fields go here -->
+            <button type="submit" class="btn btn-start">Send</button>
+          </form>
+          </div>
+          <div class="col m-3">
+      <h3><i class="fa-regular fa-at"></i> Email</h3>
       <p>
         <a href="mailto:shedarm84@gmail.com">shedarm84@gmail.com</a>
       </p>
-      <h3>Linkedin</h3>
+      <h3><i class="fa-brands fa-linkedin"></i
+        > Linkedin</h3>
       <p>
         <a
           href="https://www.linkedin.com/in/myroslava-gomaniuk-20462148/"
@@ -67,12 +90,13 @@
           >Myroslava Gomaniuk</a
         >
       </p>
-      <h3>Instagram</h3>
+      <h3><i class="fa-brands fa-instagram"></i
+        > Instagram</h3>
       <p>
         <a href="https://www.instagram.com/slava_myra/" target="_blank"
           >@slava_myra</a
         >
-      </p>
+      </p></div></div>
     </div>
     <footer>
       <div class="container">

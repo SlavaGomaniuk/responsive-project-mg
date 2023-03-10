@@ -110,11 +110,11 @@ h3 {
 }
 .btn-start {
   font-family: var(--fontfamily-p);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 27px;
   border-radius: 4px;
-  padding: 18px 46px;
+  padding: 10px 30px;
   background: var(--first-color);
   color: white;
 }
@@ -191,6 +191,9 @@ footer .contact-box p {
 }
 .navbar-st {
   background-color: var(--second-color) !important;
+}
+.navbar-home {
+  background-color: white !important;
 }
 @media (max-width: 970px) {
   h2 {
